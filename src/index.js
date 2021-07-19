@@ -1,1 +1,3 @@
-import {CountdownTimer} from "./CountdownTimer";
+import './promise';
+import './promise2';
+import './promise3';
