@@ -23,3 +23,20 @@ function onInputDate (event) {
         refs.startBtn.disabled = false;
     }
 }
+
+const timeRemaining = endDate => {
+    let diff = Date.parse(endDate) - Date.now();
+    let secondsData = diff / 1000;
+    let minutesData = diff / 60000;
+    let seconds = Math.floor(secondsData % 60);
+    let minutes = Math.floor(minutesData % 60);
+
+    return {diff, seconds, minutes};
+};
+
+const startTimer = () => {
+    if (!paused) {
+        paused = true;
+        
+    }
+}
