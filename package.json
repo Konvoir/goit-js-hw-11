@@ -26,6 +26,6 @@
     "sass": "^1.35.1"
   },
   "dependencies": {
-    "@sweetalert2/themes": "^5.0.1"
+    "sweetalert2": "^11.0.18"
   }
 }
